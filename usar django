@@ -1,0 +1,21 @@
+sudo su
+pip install Django==1.6.5
+
+complementos
+sudo pip install unipath
+
+comprobacion:
+python
+>>> import django
+>>> print(django.get_version())
+>>>exit()
+
+username: equipo
+contraseña:
+
+actualizar la db
+python manage.py syndb
+
+para arrancar el servidor de pruebas de django:
+python manage.py runserver
+

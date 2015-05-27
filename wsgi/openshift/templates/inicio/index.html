@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block title%}
+modulo de compras
+{% endblock%}
+
+
+{% block content %}
+
+{% if user.is_authenticated %}
+   
+      <h1> LOGEO EXITOSO </h1>
+      <h3>usted puede consumir el web service en:   dominio /api/compra/?format=xml</h3>
+      <h3>o en:   dominio /api/compra/?format=json</h3>
+
+{% endif%}
+      <!-- /END THE FEATURETTES -->
+
+
+     {% endblock%}
+   
